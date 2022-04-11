@@ -10,11 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lazari">
         <activity
-            android:name=".LoginActivity"
-            android:exported="true" />
+            android:name=".UI.SigninActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.OTPActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UI.LoginActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
